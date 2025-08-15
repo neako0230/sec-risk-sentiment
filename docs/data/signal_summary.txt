@@ -1,0 +1,109 @@
+Signal shortlist (p<0.05 in OLS, HC1 robust) with cross-ticker consistency
+
+- external_neg_per_1000 → ar20d  [+]  support=3 tickers=(AAPL,MSFT,NVDA) corr_support=1 max|r|=0.497
+- unc_per_1000 → ar20d  [+]  support=2 tickers=(MSFT,NVDA) corr_support=2 max|r|=0.677
+- external_unc_per_1000 → ar20d  [-]  support=2 tickers=(MSFT,NVDA) corr_support=2 max|r|=0.568
+- neg_per_1000 → ar5d  [-]  support=2 tickers=(AAPL,NVDA) corr_support=2 max|r|=0.465
+- finbert_neg_mean → ar20d  [-]  support=2 tickers=(AAPL,MSFT) corr_support=2 max|r|=0.452
+- neg_per_1000 → r5d  [-]  support=2 tickers=(AAPL,NVDA) corr_support=2 max|r|=0.400
+- finbert_neg_mean → r10d  [-]  support=2 tickers=(AAPL,MSFT) corr_support=2 max|r|=0.354
+- company_unc_per_1000 → ar20d  [-]  support=2 tickers=(MSFT,NVDA) corr_support=1 max|r|=0.680
+- company_sent_ratio_mean → r5d  [-]  support=2 tickers=(MSFT,NVDA) corr_support=1 max|r|=0.632
+- company_sent_ratio_mean → ar20d  [-]  support=2 tickers=(MSFT,NVDA) corr_support=1 max|r|=0.613
+- external_neg_per_1000 → r10d  [+]  support=2 tickers=(AAPL,MSFT) corr_support=1 max|r|=0.540
+- external_neg_per_1000 → r20d  [+]  support=2 tickers=(AAPL,NVDA) corr_support=1 max|r|=0.533
+- neg_per_1000 → r20d  [-]  support=2 tickers=(AAPL,NVDA) corr_support=1 max|r|=0.524
+- finbert_pos_mean → ar5d  [+]  support=2 tickers=(AAPL,NVDA) corr_support=1 max|r|=0.509
+- finbert_neu_mean → ar5d  [+]  support=2 tickers=(AAPL,NVDA) corr_support=1 max|r|=0.376
+- neg_per_1000 → r10d  [-]  support=2 tickers=(AAPL,MSFT) corr_support=1 max|r|=0.370
+- unc_per_1000 → ar5d  [+]  support=1 tickers=(NVDA) corr_support=3 max|r|=0.661
+- neg_per_1000 → ar3d  [-]  support=1 tickers=(AAPL) corr_support=3 max|r|=0.455
+- company_sent_ratio_mean → vol20d  [-]  support=1 tickers=(AAPL) corr_support=3 max|r|=0.432
+- company_neg_per_1000 → ar5d  [+]  support=2 tickers=(AAPL,NVDA) corr_support=0 max|r|=0.540
+- company_neg_per_1000 → r20d  [+]  support=2 tickers=(AAPL,NVDA) corr_support=0 max|r|=0.516
+- company_neg_per_1000 → r5d  [+]  support=2 tickers=(AAPL,NVDA) corr_support=0 max|r|=0.473
+- external_neg_per_1000 → ar5d  [+]  support=2 tickers=(AAPL,NVDA) corr_support=0 max|r|=0.377
+- external_neg_per_1000 → r5d  [+]  support=2 tickers=(AAPL,NVDA) corr_support=0 max|r|=0.274
+- finbert_neg_mean → ar5d  [+]  support=2 tickers=(AAPL,NVDA) corr_support=0 max|r|=0.148
+- unc_per_1000 → ar3d  [+]  support=1 tickers=(NVDA) corr_support=2 max|r|=0.607
+- company_sent_ratio_mean → ar10d  [+]  support=1 tickers=(AAPL) corr_support=2 max|r|=0.590
+- neg_per_1000 → ar20d  [-]  support=1 tickers=(AAPL) corr_support=2 max|r|=0.566
+- external_unc_per_1000 → r20d  [-]  support=1 tickers=(NVDA) corr_support=2 max|r|=0.564
+- finbert_pos_mean → r10d  [-]  support=1 tickers=(AAPL) corr_support=2 max|r|=0.527
+- external_unc_per_1000 → ar3d  [+]  support=1 tickers=(AAPL) corr_support=2 max|r|=0.527
+- unc_per_1000 → r20d  [+]  support=1 tickers=(NVDA) corr_support=2 max|r|=0.487
+- finbert_pos_mean → r5d  [+]  support=1 tickers=(AAPL) corr_support=2 max|r|=0.419
+- neg_per_1000 → ar10d  [-]  support=1 tickers=(AAPL) corr_support=2 max|r|=0.339
+- finbert_neu_mean → ar10d  [-]  support=1 tickers=(AAPL) corr_support=2 max|r|=0.318
+- neg_per_1000 → vol20d  [+]  support=1 tickers=(NVDA) corr_support=1 max|r|=0.685
+- company_unc_per_1000 → ar10d  [+]  support=1 tickers=(AAPL) corr_support=1 max|r|=0.664
+- external_unc_per_1000 → ar5d  [-]  support=1 tickers=(NVDA) corr_support=1 max|r|=0.645
+- company_unc_per_1000 → ar5d  [-]  support=1 tickers=(NVDA) corr_support=1 max|r|=0.621
+- unc_per_1000 → r10d  [-]  support=1 tickers=(AAPL) corr_support=1 max|r|=0.599
+- company_unc_per_1000 → r10d  [+]  support=1 tickers=(AAPL) corr_support=1 max|r|=0.590
+- finbert_neu_mean → ar20d  [-]  support=1 tickers=(AAPL) corr_support=1 max|r|=0.582
+- unc_per_1000 → r5d  [+]  support=1 tickers=(NVDA) corr_support=1 max|r|=0.567
+- external_unc_per_1000 → r5d  [-]  support=1 tickers=(NVDA) corr_support=1 max|r|=0.564
+- external_unc_per_1000 → r10d  [+]  support=1 tickers=(AAPL) corr_support=1 max|r|=0.563
+- company_sent_ratio_mean → r10d  [-]  support=1 tickers=(MSFT) corr_support=1 max|r|=0.559
+- external_unc_per_1000 → ar10d  [-]  support=1 tickers=(NVDA) corr_support=1 max|r|=0.555
+- company_unc_per_1000 → r5d  [-]  support=1 tickers=(NVDA) corr_support=1 max|r|=0.525
+- company_sent_ratio_mean → r20d  [-]  support=1 tickers=(NVDA) corr_support=1 max|r|=0.488
+- finbert_neu_mean → r10d  [-]  support=1 tickers=(AAPL) corr_support=1 max|r|=0.458
+- company_unc_per_1000 → vol20d  [-]  support=1 tickers=(AAPL) corr_support=1 max|r|=0.431
+- finbert_pos_mean → vol20d  [+]  support=1 tickers=(AAPL) corr_support=1 max|r|=0.414
+- finbert_neg_mean → vol20d  [+]  support=1 tickers=(AAPL) corr_support=1 max|r|=0.390
+- external_neg_per_1000 → ar10d  [+]  support=1 tickers=(AAPL) corr_support=1 max|r|=0.381
+- finbert_neg_mean → ar10d  [-]  support=1 tickers=(AAPL) corr_support=1 max|r|=0.354
+- external_neg_per_1000 → ar3d  [+]  support=1 tickers=(AAPL) corr_support=1 max|r|=0.323
+- unc_per_1000 → ar10d  [-]  support=1 tickers=(AAPL) corr_support=0 max|r|=0.676
+- company_sent_ratio_mean → ar5d  [-]  support=1 tickers=(NVDA) corr_support=0 max|r|=0.665
+- finbert_pos_mean → ar20d  [-]  support=1 tickers=(AAPL) corr_support=0 max|r|=0.595
+- company_neg_per_1000 → ar20d  [+]  support=1 tickers=(AAPL) corr_support=0 max|r|=0.552
+- company_unc_per_1000 → r20d  [-]  support=1 tickers=(NVDA) corr_support=0 max|r|=0.487
+- external_unc_per_1000 → vol20d  [-]  support=1 tickers=(AAPL) corr_support=0 max|r|=0.486
+- finbert_pos_mean → ar10d  [-]  support=1 tickers=(AAPL) corr_support=0 max|r|=0.448
+- company_sent_ratio_mean → ar3d  [-]  support=1 tickers=(MSFT) corr_support=0 max|r|=0.446
+- company_neg_per_1000 → ar3d  [+]  support=1 tickers=(AAPL) corr_support=0 max|r|=0.445
+- unc_per_1000 → vol20d  [+]  support=1 tickers=(AAPL) corr_support=0 max|r|=0.422
+- company_neg_per_1000 → ar10d  [+]  support=1 tickers=(AAPL) corr_support=0 max|r|=0.386
+- finbert_neu_mean → r5d  [+]  support=1 tickers=(AAPL) corr_support=0 max|r|=0.344
+- company_neg_per_1000 → r10d  [+]  support=1 tickers=(MSFT) corr_support=0 max|r|=0.282
+- finbert_neu_mean → vol20d  [+]  support=1 tickers=(AAPL) corr_support=0 max|r|=0.268
+- external_neg_per_1000 → vol20d  [-]  support=1 tickers=(NVDA) corr_support=0 max|r|=0.176
+- finbert_neg_mean → r5d  [+]  support=1 tickers=(AAPL) corr_support=0 max|r|=0.158
+
+Per-ticker highlights:
+== AAPL ==
+  company_neg_per_1000 → ar5d  +  p=1.312e-63
+  neg_per_1000 → ar5d  -  p=1.596e-29
+  company_neg_per_1000 → r5d  +  p=3.02e-26
+  external_neg_per_1000 → ar5d  +  p=1.569e-22
+  neg_per_1000 → r5d  -  p=3.429e-20
+  external_neg_per_1000 → r5d  +  p=6.847e-18
+  external_unc_per_1000 → r10d  +  p=1.069e-13
+  external_neg_per_1000 → ar20d  +  p=1.61e-11
+  external_unc_per_1000 → ar10d  +  p=5.297e-10
+  external_neg_per_1000 → r20d  +  p=1.507e-09
+== MSFT ==
+  company_sent_ratio_mean → ar20d  -  p=5.162e-114
+  external_unc_per_1000 → ar20d  -  p=6.894e-13
+  company_sent_ratio_mean → r10d  -  p=1.167e-08
+  unc_per_1000 → ar20d  +  p=3.979e-08
+  external_neg_per_1000 → ar20d  +  p=1.283e-07
+  finbert_neg_mean → ar20d  -  p=0.0001964
+  external_neg_per_1000 → r10d  +  p=0.0005157
+  company_unc_per_1000 → ar20d  -  p=0.0005452
+  company_neg_per_1000 → r10d  +  p=0.002153
+  neg_per_1000 → r10d  -  p=0.002329
+== NVDA ==
+  external_unc_per_1000 → r20d  -  p=1.116e-13
+  external_unc_per_1000 → ar20d  -  p=1.784e-12
+  unc_per_1000 → ar20d  +  p=1.829e-12
+  company_unc_per_1000 → ar20d  -  p=2.604e-11
+  unc_per_1000 → r20d  +  p=3.576e-10
+  company_unc_per_1000 → r20d  -  p=1.135e-08
+  unc_per_1000 → ar5d  +  p=4.103e-06
+  company_sent_ratio_mean → ar5d  -  p=2.819e-05
+  unc_per_1000 → r5d  +  p=4.671e-05
+  company_sent_ratio_mean → r5d  -  p=8.781e-05

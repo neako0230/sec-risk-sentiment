@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="zh-Hant">
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>SEC 風險段落 × 事件窗 — 報告</title>
+
+<style>
+:root { --bg:#0b0d10; --card:#12161b; --text:#e8eef4; --muted:#9fb3c8; --accent:#7cc3ff; --chip:#1b2430; --br:14px; }
+*{box-sizing:border-box} body{margin:0;padding:24px;background:var(--bg);color:var(--text);
+font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Noto Sans","Helvetica Neue",Arial}
+h1{margin:0 0 8px 0;font-size:28px;font-weight:700}
+.sub{margin:0 0 20px 0;color:var(--muted)}
+.card{background:var(--card);border:1px solid #1f2833;border-radius:var(--br);padding:16px;margin:12px 0}
+table{width:100%;border-collapse:collapse;font-size:13px}
+th,td{border-bottom:1px solid #1f2833;padding:8px;text-align:left}
+th{color:#cfe7ff;font-weight:600}
+.badge{display:inline-block;background:var(--chip);border:1px solid #263140;padding:3px 8px;border-radius:999px;font-size:12px;color:#cde3ff}
+a{color:#8ad1ff;text-decoration:none;border-bottom:1px dotted #456}
+.small{color:var(--muted);font-size:12px}
+.kv{display:flex;gap:8px;flex-wrap:wrap}
+.kv .badge{background:#0e1420}
+</style>
+
+<body>
+<h1>SEC 風險段落 × 事件窗 — 報告</h1>
+<p class="sub">產生時間：2025-08-15 12:45 | 輸出位置：<code>C:\Users\j1072\sec-risk-sentiment\reports\report.html</code></p>
+
+
+    <div class="card">
+      <div style="display:flex;align-items:center;justify-content:space-between;">
+        <h2 style="margin:0">候選訊號（Top 20）</h2>
+        <div class="kv">
+          <a href="data/signal_shortlist.csv" class="badge">下載 signal_shortlist.csv</a>
+          <a href="plots/index.html" class="badge">開啟圖庫</a>
+        </div>
+      </div>
+      <table>
+        <thead><tr><th>feature</th><th>target</th><th>符號</th><th>支持公司數</th><th>tickers</th><th>相關性支持</th><th>max|r|</th><th>score</th></tr></thead>
+        <tbody><tr><td>external_neg_per_1000</td><td>ar20d</td><td>+</td><td>3</td><td>AAPL,MSFT,NVDA</td><td>1</td><td>0.497</td><td>7</td></tr><tr><td>unc_per_1000</td><td>ar20d</td><td>+</td><td>2</td><td>MSFT,NVDA</td><td>2</td><td>0.677</td><td>6</td></tr><tr><td>external_unc_per_1000</td><td>ar20d</td><td>-</td><td>2</td><td>MSFT,NVDA</td><td>2</td><td>0.568</td><td>6</td></tr><tr><td>neg_per_1000</td><td>ar5d</td><td>-</td><td>2</td><td>AAPL,NVDA</td><td>2</td><td>0.465</td><td>6</td></tr><tr><td>finbert_neg_mean</td><td>ar20d</td><td>-</td><td>2</td><td>AAPL,MSFT</td><td>2</td><td>0.452</td><td>6</td></tr><tr><td>neg_per_1000</td><td>r5d</td><td>-</td><td>2</td><td>AAPL,NVDA</td><td>2</td><td>0.400</td><td>6</td></tr><tr><td>finbert_neg_mean</td><td>r10d</td><td>-</td><td>2</td><td>AAPL,MSFT</td><td>2</td><td>0.354</td><td>6</td></tr><tr><td>company_unc_per_1000</td><td>ar20d</td><td>-</td><td>2</td><td>MSFT,NVDA</td><td>1</td><td>0.680</td><td>5</td></tr><tr><td>company_sent_ratio_mean</td><td>r5d</td><td>-</td><td>2</td><td>MSFT,NVDA</td><td>1</td><td>0.632</td><td>5</td></tr><tr><td>company_sent_ratio_mean</td><td>ar20d</td><td>-</td><td>2</td><td>MSFT,NVDA</td><td>1</td><td>0.613</td><td>5</td></tr><tr><td>external_neg_per_1000</td><td>r10d</td><td>+</td><td>2</td><td>AAPL,MSFT</td><td>1</td><td>0.540</td><td>5</td></tr><tr><td>external_neg_per_1000</td><td>r20d</td><td>+</td><td>2</td><td>AAPL,NVDA</td><td>1</td><td>0.533</td><td>5</td></tr><tr><td>neg_per_1000</td><td>r20d</td><td>-</td><td>2</td><td>AAPL,NVDA</td><td>1</td><td>0.524</td><td>5</td></tr><tr><td>finbert_pos_mean</td><td>ar5d</td><td>+</td><td>2</td><td>AAPL,NVDA</td><td>1</td><td>0.509</td><td>5</td></tr><tr><td>finbert_neu_mean</td><td>ar5d</td><td>+</td><td>2</td><td>AAPL,NVDA</td><td>1</td><td>0.376</td><td>5</td></tr><tr><td>neg_per_1000</td><td>r10d</td><td>-</td><td>2</td><td>AAPL,MSFT</td><td>1</td><td>0.370</td><td>5</td></tr><tr><td>unc_per_1000</td><td>ar5d</td><td>+</td><td>1</td><td>NVDA</td><td>3</td><td>0.661</td><td>5</td></tr><tr><td>neg_per_1000</td><td>ar3d</td><td>-</td><td>1</td><td>AAPL</td><td>3</td><td>0.455</td><td>5</td></tr><tr><td>company_sent_ratio_mean</td><td>vol20d</td><td>-</td><td>1</td><td>AAPL</td><td>3</td><td>0.432</td><td>5</td></tr><tr><td>company_neg_per_1000</td><td>ar5d</td><td>+</td><td>2</td><td>AAPL,NVDA</td><td>0</td><td>0.540</td><td>4</td></tr></tbody>
+      </table>
+    </div>
+    
+
+<div class="card">
+  <h2 style="margin-top:0">圖庫</h2>
+  <p class="small">快速連結：<a href="plots/index.html">plots/index.html</a></p>
+</div>
+
+
+        <div class="card">
+          <h3 style="margin-top:0">AAPL — 顯著結果 Top 10（依 p 值）</h3>
+          <table>
+            <thead><tr><th>feature</th><th>target</th><th>coef</th><th>p</th></tr></thead>
+            <tbody><tr><td>company_neg_per_1000</td><td>ar5d</td><td>+0.7339</td><td>1.312e-63</td></tr><tr><td>neg_per_1000</td><td>ar5d</td><td>-0.9519</td><td>1.596e-29</td></tr><tr><td>company_neg_per_1000</td><td>r5d</td><td>+1.0578</td><td>3.02e-26</td></tr><tr><td>external_neg_per_1000</td><td>ar5d</td><td>+0.0809</td><td>1.569e-22</td></tr><tr><td>neg_per_1000</td><td>r5d</td><td>-1.3682</td><td>3.429e-20</td></tr><tr><td>external_neg_per_1000</td><td>r5d</td><td>+0.1200</td><td>6.847e-18</td></tr><tr><td>external_unc_per_1000</td><td>r10d</td><td>+0.1156</td><td>1.069e-13</td></tr><tr><td>external_neg_per_1000</td><td>ar20d</td><td>+0.1192</td><td>1.61e-11</td></tr><tr><td>external_unc_per_1000</td><td>ar10d</td><td>+0.0528</td><td>5.297e-10</td></tr><tr><td>external_neg_per_1000</td><td>r20d</td><td>+0.1617</td><td>1.507e-09</td></tr></tbody>
+          </table>
+        </div>
+        
+        <div class="card">
+          <h3 style="margin-top:0">MSFT — 顯著結果 Top 10（依 p 值）</h3>
+          <table>
+            <thead><tr><th>feature</th><th>target</th><th>coef</th><th>p</th></tr></thead>
+            <tbody><tr><td>company_sent_ratio_mean</td><td>ar20d</td><td>-0.0582</td><td>5.162e-114</td></tr><tr><td>external_unc_per_1000</td><td>ar20d</td><td>-0.0667</td><td>6.894e-13</td></tr><tr><td>company_sent_ratio_mean</td><td>r10d</td><td>-0.1168</td><td>1.167e-08</td></tr><tr><td>unc_per_1000</td><td>ar20d</td><td>+0.2260</td><td>3.979e-08</td></tr><tr><td>external_neg_per_1000</td><td>ar20d</td><td>+0.0494</td><td>1.283e-07</td></tr><tr><td>finbert_neg_mean</td><td>ar20d</td><td>-0.0051</td><td>0.0001964</td></tr><tr><td>external_neg_per_1000</td><td>r10d</td><td>+0.2592</td><td>0.0005157</td></tr><tr><td>company_unc_per_1000</td><td>ar20d</td><td>-0.1279</td><td>0.0005452</td></tr><tr><td>company_neg_per_1000</td><td>r10d</td><td>+0.7343</td><td>0.002153</td></tr><tr><td>neg_per_1000</td><td>r10d</td><td>-0.5385</td><td>0.002329</td></tr></tbody>
+          </table>
+        </div>
+        
+        <div class="card">
+          <h3 style="margin-top:0">NVDA — 顯著結果 Top 10（依 p 值）</h3>
+          <table>
+            <thead><tr><th>feature</th><th>target</th><th>coef</th><th>p</th></tr></thead>
+            <tbody><tr><td>external_unc_per_1000</td><td>r20d</td><td>-0.4316</td><td>1.116e-13</td></tr><tr><td>external_unc_per_1000</td><td>ar20d</td><td>-0.4347</td><td>1.784e-12</td></tr><tr><td>unc_per_1000</td><td>ar20d</td><td>+3.2574</td><td>1.829e-12</td></tr><tr><td>company_unc_per_1000</td><td>ar20d</td><td>-2.8158</td><td>2.604e-11</td></tr><tr><td>unc_per_1000</td><td>r20d</td><td>+3.4232</td><td>3.576e-10</td></tr><tr><td>company_unc_per_1000</td><td>r20d</td><td>-2.8802</td><td>1.135e-08</td></tr><tr><td>unc_per_1000</td><td>ar5d</td><td>+2.9149</td><td>4.103e-06</td></tr><tr><td>company_sent_ratio_mean</td><td>ar5d</td><td>-0.4593</td><td>2.819e-05</td></tr><tr><td>unc_per_1000</td><td>r5d</td><td>+3.2176</td><td>4.671e-05</td></tr><tr><td>company_sent_ratio_mean</td><td>r5d</td><td>-0.5354</td><td>8.781e-05</td></tr></tbody>
+          </table>
+        </div>
+        
+
+</body>
+</html>
