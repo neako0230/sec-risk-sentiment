@@ -1,5 +1,4 @@
 * text=auto
-
 # 文字檔一律 LF（跨平台友善）
 *.py   text eol=lf
 *.md   text eol=lf
@@ -10,12 +9,10 @@
 *.js   text eol=lf
 *.yml  text eol=lf
 *.yaml text eol=lf
-
 # Windows 批次檔保留 CRLF
 *.cmd  text eol=crlf
 *.bat  text eol=crlf
-
 # 二進位檔
 *.xlsx binary
 *.png  binary
-*.zip  binary
+*.zip filter=lfs diff=lfs merge=lfs -text
