@@ -1,0 +1,41 @@
+# virtual env
+.venv/
+env/
+venv/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# data caches / intermediates (保留最終輸出 CSV/HTML/PNG/ZIP)
+cache/
+tmp/
+*.log
+
+# models & downloads
+resources/
+!resources/.keep
+
+# notebooks (如有)
+*.ipynb_checkpoints/
+
+# local config
+.env
+.env.*
+
+# big outputs
+plots/*.svg
+reports/*.pdf
+deliverables.zip
+# local cache (do not track)
+*.sqlite
+cache_sec.sqlite

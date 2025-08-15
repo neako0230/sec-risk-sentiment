@@ -1,0 +1,13 @@
+﻿feature,target,top_minus_bottom_mean,n_low,n_high
+company_neg_per_1000,ar3d,,0,0
+company_neg_per_1000,ar5d,,0,0
+company_neg_per_1000,vol20d,,0,0
+company_unc_per_1000,ar3d,,0,0
+company_unc_per_1000,ar5d,,0,0
+company_unc_per_1000,vol20d,,0,0
+neg_per_1000,ar3d,,0,0
+neg_per_1000,ar5d,,0,0
+neg_per_1000,vol20d,,0,0
+external_neg_per_1000,ar3d,,0,0
+external_neg_per_1000,ar5d,,0,0
+external_neg_per_1000,vol20d,,0,0
